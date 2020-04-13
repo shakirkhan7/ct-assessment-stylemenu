@@ -58,8 +58,6 @@ dt::after {
   }
   dt,dd{display:inline}
 
-  
-
 dd {display: inline; margin: 0;}
 dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 
@@ -72,7 +70,6 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 footer { 
     text-align: right;
 }
-
 
 /* 
     Add a CSS ruleset targeting the starters and desserts sections to accomplish the following:
