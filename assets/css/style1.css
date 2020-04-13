@@ -84,6 +84,11 @@ dd {margin: 0 0 12px 0; display: flex;}
     font-size: large;
 }
 
+dd {display: inline; margin: 0;}
+dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
+
+.price {float: right; padding: 0 0 35px 20px;}
+
 address {padding: 10px;}
 
 /* 
